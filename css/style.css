@@ -1125,8 +1125,43 @@
 		{
 			background-color: #ecf1f1;
 		}
+                
+		#main > section.threeone
+		{
+			background-color: #f5fafa;
+		}
 	
 		#main > section.four
 		{
 			background-color: #e8edec;
 		}
+                
+/***************TAG CLOUD STYLES *******************************/
+
+#tag-cloud-wrapper {
+    font-family:"Lucida Grande","Droid Sans",Arial,Helvetica,sans-serif;
+    background: #e5e5e5 url(https://dl.dropboxusercontent.com/u/91579606/bg.gif) repeat;
+    width: 100%;
+    height: 400px;
+}
+.legend {
+    border: 1px solid #555555;
+    border-radius: 5px 5px 5px 5px;
+    font-size: 0.8em;
+    margin: 10px;
+    padding: 8px;
+}
+.bld {
+    font-weight: bold;
+}
+#tag-cloud-wrapper {
+    margin-top:22px;
+}
+#tag-cloud-wrapper > * {
+    border-radius: 13px;
+    background: -moz-radial-gradient(center, ellipse cover,  rgba(82,84,163,0.2) 0%, rgba(0,0,0,0) 100%); /* FF3.6+ */
+    background: -webkit-radial-gradient(center, ellipse cover,  rgba(82,84,163,0.2) 0%,rgba(0,0,0,0) 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-radial-gradient(center, ellipse cover,  rgba(82,84,163,0.2) 0%,rgba(0,0,0,0) 100%); /* Opera 12+ */
+    background: -ms-radial-gradient(center, ellipse cover,  rgba(82,84,163,0.2) 0%,rgba(0,0,0,0) 100%); /* IE10+ */
+    background: radial-gradient(ellipse at center,  rgba(82,84,163,0.2) 0%,rgba(0,0,0,0) 100%); /* W3C */
+}
