@@ -42,7 +42,8 @@ d3.csv("data/data.csv", function(data) {
 
   //sorts the array by the most repeated word
   data.sortBy({ prop: "size", desc: true });
-  var w = 847, h = 400,
+  var w = $("#tag-cloud-wrapper").width();
+  var h = w/2;
     maxFont = 72,
     maxSize = data[0].size || 1,
     sizeOffset = maxFont / maxSize;
